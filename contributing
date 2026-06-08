@@ -1,0 +1,72 @@
+# Contributing
+
+## How to Help Improve the Climate Civic Action Advisor
+
+This tool was built by one person with one network. Philadelphia is a city of 1.5 million people, dozens of neighborhoods, and hundreds of organizations doing climate and equity work. There are gaps here. You can help fill them.
+
+-----
+
+## Ways to Contribute
+
+### 1. Suggest an Organization or Resource
+
+If you know of a Philadelphia organization, city program, or community resource that should be included in this tool’s knowledge base, open a GitHub Issue with:
+
+- **Organization name**
+- **Website or contact**
+- **Focus area** (heat, flooding, air quality, green space, energy, transit, etc.)
+- **Why it should be included** (resident-facing? equity-focused? accessible programming?)
+
+Use the issue title format: `[ORG] Organization Name — Brief description`
+
+### 2. Report an Outdated or Incorrect Listing
+
+Organizations change. If a listing in <DATA_SOURCES.md> is outdated, defunct, or incorrect, open an Issue with the title format: `[FIX] Organization Name — what's wrong`
+
+### 3. Suggest a Philly Fact
+
+The tool occasionally surfaces random Philadelphia civic trivia. If you have a great fact about Philadelphia’s environmental, civic, or community history that should be included, open an Issue with the title: `[FACT] Your fact here`
+
+Facts should be:
+
+- Verifiable
+- Civic or environmentally relevant (loosely)
+- Philadelphia-specific
+- Celebratory or surprising — not grim
+
+### 4. Translate the Tool
+
+Philadelphia has significant Spanish-speaking, Chinese-speaking, and Vietnamese-speaking communities. If you can help translate the interface or the AI system prompt into another language, please open a Pull Request or reach out directly.
+
+### 5. Accessibility Audit
+
+This tool has not been formally tested by Disabled users with assistive technology. If you use a screen reader, switch access, or other assistive technology and are willing to test the tool and provide feedback, please open an Issue labeled `[ACCESS]` or contact the author directly.
+
+### 6. Open a Pull Request
+
+If you’re a developer and want to contribute code:
+
+1. Fork the repo
+1. Create a branch: `git checkout -b feature/your-feature-name`
+1. Make your changes
+1. Open a PR with a clear description of what you changed and why
+
+-----
+
+## Code of Conduct
+
+This is a community-rooted project. Contributors are expected to:
+
+- Treat all community members with respect
+- Center the perspectives of frontline and Disabled communities in all suggestions
+- Avoid extractive or surveillance-oriented feature suggestions
+- Be honest about limitations and uncertainties
+
+-----
+
+## Contact
+
+**Nico Meyering, MPA**
+[LinkedIn](https://linkedin.com/in/nicolasmeyering) · [GitHub](https://github.com/meyeringn)
+
+This project is part of the *Vibe Coding for Climate Justice* series.
