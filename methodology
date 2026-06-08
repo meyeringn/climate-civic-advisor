@@ -1,0 +1,117 @@
+# Methodology
+
+## Climate Civic Action Advisor — Design Rationale and Equity Framework
+
+-----
+
+## Overview
+
+This document explains the design decisions behind the Climate Civic Action Advisor: how the AI prompt was constructed, why specific Philadelphia organizations were prioritized, how disability justice and accessibility were embedded, and what limitations the tool carries.
+
+Transparency in civic AI tools is not optional — it is a precondition for community trust.
+
+-----
+
+## Problem Framing
+
+Philadelphia’s climate vulnerabilities are well-documented and deeply inequitable:
+
+- **Urban heat islands** concentrate in neighborhoods with low tree canopy coverage, high impervious surface area, and older housing stock — neighborhoods that are disproportionately Black, Brown, low-income, and home to higher rates of Disabled residents.
+- **Stormwater flooding** follows the same geographic and demographic pattern, driven by aging combined sewer infrastructure and inadequate green infrastructure investment.
+- **Air quality** burdens cluster near industrial corridors, highways, and port facilities — again concentrated in the same neighborhoods.
+
+These are not separate issues. They compound each other and compound existing vulnerabilities. A resident who is chronically ill, heat-sensitive, or mobility-impaired faces the same climate burdens as their neighbors — plus additional layers of risk that standard civic tools rarely acknowledge.
+
+The advisor was built with this compounding in mind.
+
+-----
+
+## AI Prompt Design
+
+The system prompt instructs the AI model to behave as a “knowledgeable neighbor” rather than a bureaucratic information retrieval system. Key design decisions:
+
+### 1. Tone: Neighborhood, Not Institution
+
+Standard civic information tools feel like FAQ pages. They answer questions but don’t meet people where they are. The prompt explicitly instructs Claude to validate the resident’s concern before providing resources — mirroring how a trusted community member would respond.
+
+### 2. Specificity: Real Philly, Not Generic
+
+The prompt names specific Philadelphia organizations and programs to ground responses in actual resources. Generic AI responses (“contact your local government”) erode trust and are useless. The prompt anchors responses to named entities with real contact pathways.
+
+### 3. Accessibility as Default, Not Afterthought
+
+The prompt includes an explicit instruction: *“Disability inclusion and accessibility matter. When relevant, note accessibility considerations for any actions you suggest.”* This ensures that meeting accessibility needs is embedded in every recommendation rather than treated as a special case.
+
+### 4. Action Orientation
+
+The prompt requires 2–3 actions the resident can take *this week* — not “consider getting involved someday.” Civic tools that only describe problems without enabling action reinforce helplessness. The time-bounded framing pushes toward agency.
+
+### 5. Plain Language
+
+The prompt prohibits jargon. Climate and civic spaces are full of acronyms and insider language that exclude the people most affected. Plain language is an equity intervention.
+
+-----
+
+## Organization Curation Rationale
+
+Organizations referenced in the tool’s knowledge base were selected using the following criteria:
+
+|Criterion                |Rationale                                                         |
+|-------------------------|------------------------------------------------------------------|
+|**Philadelphia-specific**|Generic national orgs are less actionable for residents           |
+|**Resident-facing**      |Orgs must have a way for regular people to plug in                |
+|**Equity-focused**       |Priority given to orgs whose mission centers frontline communities|
+|**Accessibility record** |Where known, orgs with accessible programming were prioritized    |
+|**Active and current**   |Defunct or dormant orgs were excluded                             |
+
+See <DATA_SOURCES.md> for the full documented list.
+
+-----
+
+## Philly Facts Feature
+
+The random Philadelphia civic trivia feature serves a dual purpose:
+
+1. **Humanization** — It interrupts the transactional pattern of a chat tool and reminds users this is a community-rooted product, not a generic chatbot.
+1. **Civic identity building** — Facts are selected to reinforce pride in Philadelphia’s civic and environmental history, not just trivia for its own sake.
+
+Facts are hardcoded (not AI-generated) to ensure accuracy and editorial control.
+
+-----
+
+## What This Tool Is Not
+
+**It is not a substitute for human relationships.** The orgs it references are run by real people doing real work. The tool’s job is to lower the barrier to finding them — not to replace them.
+
+**It is not a legal or medical advisor.** Responses should not be treated as authoritative guidance on individual health, legal, or financial situations related to climate impacts.
+
+**It is not a comprehensive database.** The organization list reflects the author’s knowledge and network as of the build date. It will have gaps. See <CONTRIBUTING.md> for how to suggest additions.
+
+**It does not have real-time data.** The tool does not pull live data on flood events, air quality readings, or heat advisories. For real-time information, see the resources listed in DATA_SOURCES.md.
+
+-----
+
+## Limitations and Known Gaps
+
+- The tool’s knowledge of Philadelphia organizations reflects the author’s network and is inherently incomplete. Communities in Northeast Philadelphia, Far Northeast, and some river wards may be underrepresented.
+- The AI model (Claude) may occasionally hallucinate organization details or contact information. Users should verify specifics directly with any organization before acting.
+- The tool is currently English-only. Philadelphia has significant Spanish-speaking, Chinese-speaking, and Vietnamese-speaking populations who deserve tools in their languages.
+- Accessibility of the tool itself: the current version has been built with keyboard navigation and screen reader compatibility as goals, but has not been formally audited by a Disabled user tester.
+
+-----
+
+## Future Development
+
+- [ ] Spanish language version
+- [ ] Integration with real-time AQI and heat advisory data (OpenAQ, NWS)
+- [ ] ZIP code–specific responses drawing from the Climate Burden Index
+- [ ] Formal accessibility audit with Disabled community testers
+- [ ] Organization database that can be community-updated without a code deploy
+
+-----
+
+## Author Note
+
+This tool was built as part of the *Vibe Coding for Climate Justice* series — a practice of building civic technology quickly, publicly, and in service of Philadelphia’s frontline communities. It is imperfect by design and open to improvement by anyone.
+
+*Nico Meyering, MPA — June 2026*
