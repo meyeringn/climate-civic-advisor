@@ -1,0 +1,98 @@
+# Data Sources
+
+## Philadelphia Organizations and Programs Referenced
+
+This document lists every Philadelphia organization, city program, and civic resource referenced or recommended by the Climate Civic Action Advisor. It is intended to provide transparency about the tool’s knowledge base and serve as a standalone resource for residents.
+
+Last updated: June 2026
+
+-----
+
+## City of Philadelphia Programs and Offices
+
+|Organization                                                      |Focus Area                                                       |Website                                                                           |
+|------------------------------------------------------------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------|
+|Philadelphia Office of Sustainability                             |Citywide climate planning, Greenworks Philadelphia               |<https://www.phila.gov/departments/office-of-sustainability/>                     |
+|Philadelphia Water Department                                     |Stormwater management, Green City Clean Waters program           |<https://water.phila.gov>                                                         |
+|Philadelphia Parks & Recreation                                   |Green space, tree planting, community gardens                    |<https://www.phila.gov/departments/philadelphia-parks-recreation/>                |
+|TreePhilly                                                        |Free tree giveaways, tree planting programs for residents        |<https://treephilly.org>                                                          |
+|Philadelphia Mayor’s Commission on People with Disabilities       |Disability policy, accessibility, climate-disability intersection|<https://www.phila.gov/departments/mayors-commission-on-people-with-disabilities/>|
+|Philadelphia Department of Public Health — Air Management Services|Air quality monitoring, permitting, complaints                   |<https://www.phila.gov/departments/air-management-services/>                      |
+|Philadelphia Office of Emergency Management                       |Heat emergency planning, cooling centers                         |<https://www.phila.gov/departments/office-of-emergency-management/>               |
+|Philadelphia Housing Authority                                    |Weatherization, energy efficiency for public housing residents   |<https://www.pha.phila.gov>                                                       |
+|Philadelphia Energy Authority                                     |Solarize Philly, energy affordability programs                   |<https://philaenergy.org>                                                         |
+
+-----
+
+## Regional Planning and Advocacy
+
+|Organization                                        |Focus Area                                           |Website                      |
+|----------------------------------------------------|-----------------------------------------------------|-----------------------------|
+|Delaware Valley Regional Planning Commission (DVRPC)|Regional climate resilience, transportation, land use|<https://www.dvrpc.org>      |
+|Pennsylvania Environmental Council                  |Statewide environmental policy, urban greening       |<https://pecpa.org>          |
+|Clean Air Council                                   |Air quality advocacy, environmental justice          |<https://cleanair.org>       |
+|PennEnvironment                                     |Statewide environmental advocacy, clean energy       |<https://pennenvironment.org>|
+
+-----
+
+## Environmental Justice and Community Organizations
+
+|Organization            |Focus Area                                                    |Website                                  |
+|------------------------|--------------------------------------------------------------|-----------------------------------------|
+|Philly Thrive           |Environmental justice, refinery community organizing          |<https://phillythrive.org>               |
+|The Philly Carbon Lab   |Community-based climate research and storytelling             |(local network — search via social media)|
+|ecoSPARK                |Youth climate education, community greening                   |<https://ecospark.org>                   |
+|Community Legal Services|Legal assistance for housing/utility issues related to climate|<https://clsphila.org>                   |
+|Philadelphia Mural Arts |Green mural and beautification programs, community engagement |<https://www.muralarts.org>              |
+
+-----
+
+## Transit and Mobility
+
+|Organization                             |Focus Area                             |Website                                 |
+|-----------------------------------------|---------------------------------------|----------------------------------------|
+|Transit Forward Philadelphia             |Transit advocacy, equity, accessibility|<https://transitforwardphiladelphia.org>|
+|SEPTA                                    |Public transit, accessibility services |<https://www.septa.org>                 |
+|Bicycle Coalition of Greater Philadelphia|Active transportation, safe streets    |<https://bicyclecoalition.org>          |
+
+-----
+
+## Disability and Health Equity
+
+|Organization                                |Focus Area                                     |Website                           |
+|--------------------------------------------|-----------------------------------------------|----------------------------------|
+|Disability Pride Pennsylvania               |Statewide disability rights and advocacy       |<https://disabilitypridepenn.org> |
+|Liberty Resources                           |Independent living, disability services        |<https://www.libertyresources.org>|
+|Penn Memory Center                          |Climate-health research, vulnerable populations|<https://pennmemorycenter.org>    |
+|Philadelphia Department of Behavioral Health|Mental health impacts of climate events        |<https://dbhids.org>              |
+
+-----
+
+## Real-Time Data and Monitoring Resources
+
+These are not organizations but live data sources the tool may direct users toward:
+
+|Resource                               |What It Tracks                                 |Website                             |
+|---------------------------------------|-----------------------------------------------|------------------------------------|
+|AirNow                                 |Real-time air quality index by ZIP code        |<https://www.airnow.gov>            |
+|National Weather Service — Philadelphia|Heat advisories, severe weather                |<https://www.weather.gov/phi/>      |
+|FEMA Flood Map Service Center          |Official flood zone maps                       |<https://msc.fema.gov>              |
+|Philadelphia Water Dept. Stormwater Map|Green infrastructure and flooding data         |<https://water.phila.gov/stormwater>|
+|EPA EJScreen                           |Environmental justice screening by neighborhood|<https://www.epa.gov/ejscreen>      |
+
+-----
+
+## Related Tools in This Portfolio
+
+|Tool                                                                     |Description                                               |
+|-------------------------------------------------------------------------|----------------------------------------------------------|
+|[Climate Burden Index](https://github.com/meyeringn/climate-burden-index)|Composite climate vulnerability scores by Philadelphia ZIP|
+|[SustAInable](https://github.com/meyeringn/sustainable-heat)             |XGBoost model predicting heat illness risk by ZIP         |
+|[CanopyWatch](https://github.com/meyeringn/canopywatch)                  |Tree canopy equity dashboard by neighborhood              |
+|[FloodRisk Philly](https://github.com/meyeringn/floodrisk-philly)        |FEMA-based flood risk mapping for Philadelphia            |
+
+-----
+
+## Notes on Data Currency
+
+This document reflects organizations active as of June 2026. Philadelphia’s civic landscape changes — organizations merge, rename, shift focus, or close. If you find a listing that is outdated or incorrect, please open an issue or see <CONTRIBUTING.md>.
